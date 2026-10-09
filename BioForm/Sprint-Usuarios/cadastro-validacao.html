@@ -1,1 +1,34 @@
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cadastro | BioForm</title><link rel="stylesheet" href="style.css"></head><body><main class="card"><h1>Criar conta</h1><p>Protótipo independente de validação de cadastro.</p><form id="cadastro" novalidate><label for="nome">Nome</label><input id="nome" autocomplete="name" required><div class="error" id="erro-nome"></div><label for="email">E-mail</label><input id="email" type="email" autocomplete="email" required><div class="error" id="erro-email"></div><label for="senha">Senha</label><input id="senha" type="password" autocomplete="new-password" required><div class="error" id="erro-senha"></div><label for="confirmacao">Confirmar senha</label><input id="confirmacao" type="password" autocomplete="new-password" required><div class="error" id="erro-confirmacao"></div><button type="submit">Validar cadastro</button><p id="resultado" role="status" aria-live="polite"></p></form><small>Este protótipo não cria contas nem envia dados ao servidor.</small></main><script src="cadastro-validacao.js"></script></body></html>
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cadastro | BioForm</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Criar conta</h1>
+    <p>Preencha os campos para verificar as regras básicas do cadastro.</p>
+    <!-- Demonstração: o navegador valida antes do envio; não existe servidor para receber o POST. -->
+    <form action="#" method="post">
+      <label for="nome">Nome</label>
+      <input id="nome" name="nome" type="text" autocomplete="name" minlength="2" maxlength="100" required>
+
+      <label for="email">E-mail</label>
+      <input id="email" name="email" type="email" autocomplete="email" required>
+
+      <label for="senha">Senha</label>
+      <input id="senha" name="senha" type="password" autocomplete="new-password" minlength="8" required>
+
+      <label for="confirmacao">Confirmar senha</label>
+      <input id="confirmacao" name="confirmacao" type="password" autocomplete="new-password" minlength="8" required>
+
+      <button type="submit">Verificar campos</button>
+    </form>
+    <p><small>O navegador verifica campos obrigatórios, formato do e-mail e tamanho mínimo da senha.
+    A comparação das duas senhas e o cadastro real precisam ser implementados no servidor com Python.
+    Esta tela não possui backend para processar ou salvar dados.</small></p>
+  </main>
+</body>
+</html>
