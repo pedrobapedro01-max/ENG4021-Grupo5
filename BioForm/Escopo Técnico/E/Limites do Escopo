@@ -1,0 +1,29 @@
+- Limites do escopo
+Para evitar que o projeto se torne excessivamente complexo, algumas funcionalidades deverão ser tratadas como etapas futuras.
+Incluído no MVP
+Cadastro e login;
+Perfil e objetivos;
+Registro de treinos;
+Registro de cargas e repetições;
+Histórico de treino;
+Catálogo de alimentos;
+Registro de refeições;
+Calorias e macronutrientes;
+Combos de refeições;
+Dashboard;
+Hidratação;
+Diário de sensações;
+Grupos;
+Ranking básico;
+Desafios;
+Sistema inicial de gamificação.
+Fora do MVP
+Integração completa com smartwatches;
+Integração com Apple Saúde e Google Fit;
+Inteligência artificial avançada;
+Análise preditiva;
+Integração com academias;
+Sistema B2B2C;
+Validação automática de fotografias;
+Integrações avançadas com nutricionistas e profissionais de educação física.
+Essas funcionalidades poderão ser desenvolvidas em versões futuras.

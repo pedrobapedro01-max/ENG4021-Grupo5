@@ -1,0 +1,75 @@
+1. Viabilidade técnica
+O projeto apresenta viabilidade técnica alta, pois as tecnologias necessárias para sua construção já são amplamente utilizadas.
+A aplicação pode ser desenvolvida utilizando uma arquitetura composta por:
+Aplicativo Mobile → API → Backend → Banco de Dados
+As principais dificuldades técnicas estarão relacionadas à integração de diferentes módulos e ao processamento dos dados para gerar recomendações e análises.
+O catálogo de alimentos também representa um desafio, pois informações nutricionais incorretas podem prejudicar a experiência do usuário. Por isso, a base deverá ser controlada e possuir mecanismos de atualização e revisão.
+A utilização de fotografias para validação de check-ins também aumenta a complexidade devido ao armazenamento, privacidade e moderação. Por esse motivo, recomenda-se inicialmente utilizar um sistema de check-in mais simples.
+
+
+2. Viabilidade econômica
+O projeto apresenta viabilidade econômica para uma primeira versão, principalmente por poder ser desenvolvido como um MVP utilizando tecnologias de código aberto e serviços de nuvem com planos iniciais de baixo custo.
+Os principais custos envolvidos serão:
+desenvolvimento;
+hospedagem;
+banco de dados;
+armazenamento;
+publicação nas lojas;
+manutenção;
+serviços externos;
+segurança.
+A possibilidade de utilizar uma única base de código para Android e iOS também pode reduzir o custo inicial de desenvolvimento.
+No futuro, o aplicativo poderá utilizar modelos como:
+assinatura premium;
+funcionalidades exclusivas;
+parcerias com academias;
+parcerias com empresas;
+modelo B2B2C.
+
+3. Viabilidade operacional
+O projeto apresenta boa viabilidade operacional, pois as funcionalidades propostas estão diretamente relacionadas às atividades que o público-alvo já realiza.
+A principal preocupação operacional será evitar excesso de etapas no registro.
+Por isso, funcionalidades como:
+combos salvos;
+última carga utilizada;
+recomendações;
+dashboard simplificado;
+registros rápidos;
+serão importantes para diminuir a fricção e aumentar a frequência de utilização.
+A interface deverá ser desenvolvida com foco em pessoas com diferentes níveis de familiaridade tecnológica.
+
+4. Viabilidade temporal
+O desenvolvimento deverá ocorrer de maneira incremental.
+Fase 1 — Planejamento
+levantamento de requisitos;
+definição da arquitetura;
+modelagem do banco;
+prototipação das telas.
+Fase 2 — Desenvolvimento do núcleo
+cadastro;
+login;
+perfil;
+banco de dados;
+módulo de treino;
+módulo de alimentação.
+Fase 3 — Dashboard e evolução
+indicadores;
+gráficos;
+histórico;
+metas;
+hidratação;
+diário de sensações.
+Fase 4 — Gamificação e social
+grupos;
+desafios;
+ranking;
+badges;
+ofensivas.
+Fase 5 — Testes
+testes funcionais;
+testes de usabilidade;
+testes de desempenho;
+correção de erros.
+Fase 6 — Expansão
+Após a validação do MVP, poderão ser adicionadas integrações com dispositivos, serviços de saúde e funcionalidades avançadas.
+.

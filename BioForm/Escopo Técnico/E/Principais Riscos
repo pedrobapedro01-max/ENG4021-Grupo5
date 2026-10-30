@@ -1,0 +1,10 @@
+         Risco                                       Impacto                                        Mitigação
+Base nutricional incorreta                             Alto                          Utilizar catálogo controlado e revisado
+Aplicativo muito complexo                              Alto                          Priorizar funcionalidades essenciais
+Abandono do usuário                                    Alto                          Reduzir tempo de registro e utilizar gamificação
+Vazamento de dados                                  Muito alto                       Autenticação e proteção dos dados
+Custo elevado de infraestrutura                        Médio                         Utilizar arquitetura escalável
+Problemas com fotos                                 Médio/alto                       Adiar validação automática para versões futuras
+Recomendações inadequadas                              Alto                          Utilizar regras controladas e caráter educativo
+Dependência de APIs externas                           Médio                         Desenvolver arquitetura desacoplada
+

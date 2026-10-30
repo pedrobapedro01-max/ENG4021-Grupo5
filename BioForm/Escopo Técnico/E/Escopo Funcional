@@ -1,0 +1,121 @@
+1. Escopo funcional
+1.1 Cadastro e perfil
+O aplicativo deverá possuir um sistema de cadastro e login.
+Durante o onboarding serão coletadas informações como:
+idade;
+altura;
+peso;
+objetivo;
+nível de experiência;
+frequência de treino;
+equipamentos disponíveis;
+preferências relacionadas à alimentação.
+O usuário poderá atualizar essas informações posteriormente.
+O sistema também deverá permitir a revisão periódica das metas, com uma notificação a cada dois meses para verificar se os objetivos continuam os mesmos.
+
+1.2 Módulo de treino
+O módulo de treino será responsável pelo registro das atividades físicas.
+Para musculação, o usuário poderá registrar:
+exercício;
+número de séries;
+repetições;
+carga;
+tempo de descanso;
+observações.
+O sistema deverá apresentar automaticamente a última carga utilizada em cada exercício, facilitando o acompanhamento da evolução.
+Também serão disponibilizados:
+cronômetro de descanso;
+histórico dos exercícios;
+evolução de cargas;
+evolução de volume;
+recordes pessoais;
+frequência de treino.
+O sistema também deverá permitir o registro de outras modalidades, como corrida e caminhada.
+
+1.3 Módulo de alimentação
+O módulo de alimentação permitirá registrar refeições utilizando um catálogo de alimentos previamente cadastrado.
+As principais funcionalidades serão:
+busca de alimentos;
+seleção de porções;
+registro de refeições;
+cálculo de calorias;
+acompanhamento de macronutrientes;
+histórico alimentar;
+criação de refeições personalizadas;
+salvamento de refeições frequentes.
+O sistema deverá permitir que refeições recorrentes sejam agrupadas em combos.
+Exemplo:
+“Café Padrão” → selecionar → refeição registrada.
+O objetivo é reduzir a quantidade de etapas necessárias para registrar uma refeição.
+
+1.4 Controle nutricional
+O aplicativo deverá apresentar ao usuário:
+calorias consumidas;
+calorias restantes;
+proteínas;
+carboidratos;
+gorduras;
+gasto energético estimado pelos treinos.
+As informações serão apresentadas em um dashboard visual e simplificado.
+O sistema poderá utilizar o saldo disponível para recomendar opções de:
+refeições;
+lanches;
+doces.
+As porções recomendadas poderão ser ajustadas de acordo com as metas cadastradas.
+
+1.5 Hidratação
+O aplicativo possuirá um contador de hidratação diária.
+O usuário poderá registrar a quantidade de água consumida e acompanhar seu progresso ao longo do dia.
+Também poderá existir um registro específico de bebidas alcoólicas, com estimativa de calorias e informações educativas sobre possíveis impactos na hidratação, sono e recuperação.
+
+1.6 Diário de sensações
+Será disponibilizado um sistema de check-in rápido para registrar:
+qualidade do sono;
+humor;
+percepção de esforço durante o treino.
+O objetivo é utilizar essas informações posteriormente para identificar possíveis relações entre recuperação e desempenho.
+
+1.7 Módulo social
+O sistema permitirá a criação de grupos de usuários.
+Dentro dos grupos poderão existir:
+rankings;
+desafios;
+metas coletivas;
+sequência de dias;
+conquistas.
+A pontuação deverá priorizar a consistência, e não apenas o desempenho físico.
+Dessa forma, a competição poderá considerar fatores como:
+frequência nos treinos;
+cumprimento das metas;
+consistência alimentar;
+participação nos desafios.
+
+1.8 Sistema de gamificação
+O aplicativo deverá utilizar elementos de gamificação para aumentar o engajamento.
+Entre eles:
+ofensivas de dias consecutivos;
+badges;
+rankings;
+desafios;
+metas;
+conquistas por evolução.
+A gamificação deverá incentivar hábitos consistentes sem transformar o sistema em uma competição baseada exclusivamente em desempenho físico.
+
+1.9 Análise e evolução
+O sistema deverá armazenar os dados históricos para gerar gráficos e indicadores.
+Os principais indicadores serão:
+frequência de treino;
+evolução de carga;
+volume;
+recordes;
+consumo nutricional;
+hidratação;
+consistência.
+Uma funcionalidade importante será a análise cruzada dos dados.
+
+Por exemplo, o sistema poderá identificar relações entre:
+sono → desempenho
+hidratação → desempenho
+alimentação → treino
+consistência → evolução
+Essas análises deverão ser apresentadas como informações de acompanhamento, e não como diagnóstico médico.
