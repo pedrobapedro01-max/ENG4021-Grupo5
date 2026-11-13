@@ -1,25 +1,27 @@
-# Sprint 9 — Tarefas independentes (propostas)
+# Sprint 9 — Três tarefas com código
 
-> Essas tarefas ainda não foram implementadas. Conferir duplicidade no Kanban antes de considerar concluídas. Entregas devem ficar em pasta própria e não modificar o site principal.
+Arquivos independentes, sem alterar o aplicativo principal.
 
 ## 1. Protótipo mobile — DIFÍCIL
-Criar telas independentes em HTML/CSS para dashboard, treinos e alimentação, com navegação entre telas e responsividade.
+**Entrega:** `sprint9/mobile/index.html`
+- [x] Criar três telas navegáveis (início, treinos e alimentação)
+- [x] Adaptar layout para celular com HTML e CSS
+- [ ] Validar manualmente em navegador
 
-**Aceite:** [ ] telas navegáveis [ ] layout responsivo [ ] acessibilidade básica [ ] instruções de execução.
+## 2. Testes automatizados — DIFÍCIL
+**Entrega:** `sprint9/testes/test_mobile.py`
+- [x] Criar quatro testes de estrutura e navegação do protótipo
+- [ ] Executar os testes e registrar o resultado
+- [ ] Ampliar cobertura para o sistema principal, se necessário
 
-## 2. Documentação de arquitetura e banco de dados — DIFÍCIL
-Inspecionar código e esquema reais; documentar módulos, fluxos, tecnologias e relacionamentos comprovados.
+**Comando:** `python -m unittest discover -s sprint9/testes -v`
 
-**Aceite:** [ ] mapa de módulos [ ] diagrama de arquitetura [ ] diagrama de dados (se houver banco) [ ] fontes de cada informação.
+## 3. Gerador independente de relatórios de treinos — DIFÍCIL
+**Entrega:** `sprint9/relatorio-treinos/index.html`
+- [x] Formulário para registrar treinos
+- [x] Resumo automático de registros e séries
+- [x] Exclusão e armazenamento local dos registros
+- [x] Layout de impressão para salvar em PDF pelo navegador
+- [ ] Validar manualmente em navegador
 
-## 3. Testes automatizados independentes — DIFÍCIL
-Criar suíte executável para regras e fluxos já existentes, sem alterar o código de produção.
-
-**Aceite:** [ ] testes executáveis [ ] instruções [ ] resultados registrados [ ] limitações descritas.
-
-## Status
-- [ ] Protótipo mobile
-- [ ] Documentação técnica
-- [ ] Testes automatizados
-
-**Nota:** o repositório está com GitHub Issues desativado, então estas tarefas foram registradas neste arquivo em uma branch separada.
+**Observação:** o gerador não consulta o banco do site e não usa registros reais do usuário; é um protótipo independente. Conferir duplicidade no Kanban antes de registrar.
