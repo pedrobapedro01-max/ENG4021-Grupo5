@@ -1,27 +1,30 @@
-# Sprint 9 — Três tarefas com código
+# Sprint 9 — Três tarefas independentes com HTML, CSS e JavaScript
 
-Arquivos independentes, sem alterar o aplicativo principal.
+As três entregas são protótipos independentes, sem alterações no aplicativo principal.
 
 ## 1. Protótipo mobile — DIFÍCIL
-**Entrega:** `sprint9/mobile/index.html`
-- [x] Criar três telas navegáveis (início, treinos e alimentação)
-- [x] Adaptar layout para celular com HTML e CSS
-- [ ] Validar manualmente em navegador
+**Arquivo:** `sprint9/mobile/index.html`
 
-## 2. Testes automatizados — DIFÍCIL
-**Entrega:** `sprint9/testes/test_mobile.py`
-- [x] Criar quatro testes de estrutura e navegação do protótipo
-- [ ] Executar os testes e registrar o resultado
-- [ ] Ampliar cobertura para o sistema principal, se necessário
+- [x] Criar três telas navegáveis: início, treinos e alimentação
+- [x] Criar layout responsivo em HTML e CSS
+- [ ] Validar manualmente no navegador
 
-**Comando:** `python -m unittest discover -s sprint9/testes -v`
+## 2. Planejador semanal de hábitos — DIFÍCIL
+**Arquivo:** `sprint9/planejador-habitos/index.html`
 
-## 3. Gerador independente de relatórios de treinos — DIFÍCIL
-**Entrega:** `sprint9/relatorio-treinos/index.html`
-- [x] Formulário para registrar treinos
-- [x] Resumo automático de registros e séries
-- [x] Exclusão e armazenamento local dos registros
-- [x] Layout de impressão para salvar em PDF pelo navegador
-- [ ] Validar manualmente em navegador
+- [x] Formulário para adicionar hábitos
+- [x] Grade de acompanhamento dos sete dias da semana
+- [x] Marcação de conclusão, exclusão e reinício da semana
+- [x] Resumo automático e armazenamento local no navegador
+- [ ] Validar manualmente no navegador
 
-**Observação:** o gerador não consulta o banco do site e não usa registros reais do usuário; é um protótipo independente. Conferir duplicidade no Kanban antes de registrar.
+## 3. Gerador de relatórios de treinos — DIFÍCIL
+**Arquivo:** `sprint9/relatorio-treinos/index.html`
+
+- [x] Registrar exercícios, séries e repetições
+- [x] Exibir resumo automático
+- [x] Excluir registros e armazená-los localmente
+- [x] Disponibilizar impressão / salvar em PDF pelo navegador
+- [ ] Validar manualmente no navegador
+
+**Observação:** os três arquivos são protótipos e não estão integrados ao site principal. Conferir se há tarefas equivalentes no Kanban antes de cadastrar e marcar como concluídas.
